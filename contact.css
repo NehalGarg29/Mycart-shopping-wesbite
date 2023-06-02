@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(image.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 05%;
+}
+.container h1{
+    font-size: 40px;
+    border-bottom: 3px white solid;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    font-family: 'Combo', cursive;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid white;
+    margin:  25px 0;
+}
+.box i{
+    width: 25px;
+    text-align: center;
+
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: 'Combo', cursive;
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    color: white;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn:hover{
+    color: grey;
+    background: lightgrey;
+   
+}
